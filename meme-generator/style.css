@@ -1,0 +1,131 @@
+/* CSS Variables */
+:root {
+    --primary-color: #105a8b;
+}
+
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: 'Nunito', monospace;
+}
+
+/* Header section */
+header,
+footer {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 800;
+    padding: 0.75em 1.5em;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+/* Main section */
+#main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3em auto;
+    width: 95%;
+}
+
+/* Meme section */
+#meme-container {
+    background-color: #ffffff;
+    width: 50%;
+}
+
+#meme-image {
+    height: 400px;
+    width: 100%;
+}
+
+figcaption {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0.3em 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Form section */
+#form {
+    border: 1px solid rgba(16, 90, 139, 0.65);
+    height: 250px;
+    width: 40%;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.36);
+    font-size: 1rem;
+    margin: 1em;
+    padding: 0.75em;
+    width: 90%;
+}
+
+#submit-btn {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 1em;
+    padding: 0.6em 0.8em;
+    text-transform: uppercase;
+}
+
+#submit-btn:hover {
+    background-color: rgba(16, 90, 139, 0.8);
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+}
+
+/* Media queries */
+@media (max-width: 700px) {
+    html {
+        font-size: 12px;
+    }
+    
+    #main-section {
+        flex-direction: column;
+    }
+
+    #meme-container,
+    #form {
+        margin: 1em auto;
+        width: 90%;
+    }
+
+    #meme-image {
+        height: 200px;
+    }
+
+    #form {
+        height: 200px;
+    }
+}
