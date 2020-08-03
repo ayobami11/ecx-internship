@@ -5,10 +5,12 @@ form.addEventListener('submit', handleSubmit);
 const getData = async () => {
     let memeImage = document.getElementById('meme-image');
 
+    // Makes API request
     const response = await fetch('https://api.imgflip.com/get_memes');
     const jsonResponse = await response.json();
     const { memes } = jsonResponse.data;
 
+    // Selects a random meme image
     const randomIndex = Math.floor(Math.random() * memes.length);
     const randomMemeImg = memes[randomIndex].url;
     memeImage.src = randomMemeImg;
