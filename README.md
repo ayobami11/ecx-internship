@@ -1,1 +1,1 @@
-# ecx-internship
+# ECX Internship
