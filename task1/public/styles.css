@@ -146,6 +146,26 @@ form h2 {
     cursor: pointer;
 }
 
+/* Links */
+#links {
+    flex-wrap: wrap;
+}
+
+#links a {
+    border: 2px solid #bdbdbd;
+    color: #fff;
+    display: block;
+    margin: 1em;
+    min-width: 50px;
+    padding: 1em 2.5em;
+    text-transform: uppercase;
+}
+
+#links a:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
 /* Submit button */
 .submit-btn {
     background-color: #fff;
@@ -187,13 +207,7 @@ form h2 {
 
 @media (max-width: 500px) {
     #main-section {
-        align-items: flex-start;
-    }
-
-    #main-div {
-        justify-content: center;
-        margin-top: 1em;
-        width: 95%;
+        display: none;
     }
 
     #text-section {
