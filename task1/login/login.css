@@ -6,6 +6,6 @@
 /* Media queries */
 @media (max-width: 900px) {
     .form-section {
-        height: 60vh;
+        height: 55vh;
     }
 }

@@ -207,7 +207,7 @@ form h2 {
 }
 
 @media (max-width: 500px) {
-    #main-section {
+    body.form-page #main-section {
         display: none;
     }
 
