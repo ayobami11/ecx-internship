@@ -213,6 +213,10 @@ form h2 {
     #text-section {
         width: 95%;
     }
+
+    form h2 {
+        margin: 0.7em;
+    }
     
     .form-input input {
         width: 100%;
