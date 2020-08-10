@@ -164,6 +164,7 @@ form h2 {
 #links a:hover {
     background-color: #fff;
     color: var(--primary-color);
+    text-decoration: none;
 }
 
 /* Submit button */
