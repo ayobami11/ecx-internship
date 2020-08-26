@@ -16,3 +16,7 @@
 - [About page](https://ayobami11.github.io/ecx-internship/task2/about/about.html)
 
 - [Signs and symptoms page](https://ayobami11.github.io/ecx-internship/task2/signs/signs.html)
+
+### Task 3
+
+- [10 Foods Landing Page](https://ayobami11.github.io/ecx-internship/task3/index.html)
